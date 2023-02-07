@@ -164,8 +164,8 @@ body{
 
 .btns{
     position: absolute;
-    right: -135px;
-    top: 1;
+    right: -160px;
+    top: 400px;
     width: 120px;
     height: 120px;
     background: #c61dff;
@@ -206,7 +206,7 @@ body{
 
 .btns.Signup{
     top: 300px;
-    right: -120px;
+    left: 450px;
     width: 90px;
     height: 90px;
     border-radius: 69% 31% 30% 70% / 57% 43% 57% 43%;
@@ -226,4 +226,25 @@ body{
 
 .btns.Signup:hover{
     border-radius: 50%;
+}
+
+@media(max-width:550px) {
+
+    .container{
+        
+        left: -1px;
+    }
+    
+.drop{
+    top: -210px;
+}
+
+    .btns.Signup{
+        top: 510px;
+        left: 220px;
+    }
+    .btns{
+        left: 170px;
+        top: 600px;  
+    }
 }
